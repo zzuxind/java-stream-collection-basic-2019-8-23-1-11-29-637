@@ -1,8 +1,6 @@
 package com.thoughtworks.collection;
 
-import sun.reflect.generics.reflectiveObjects.NotImplementedException;
-
-import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 
 public class MyMap {
@@ -10,14 +8,20 @@ public class MyMap {
     List<Integer> array;
 
     public MyMap(List<Integer> array) {
+
         this.array = array;
     }
 
+    //从大到小排序
     public List<Integer> sortFromBig() {
-        throw new NotImplementedException();
+
+        Collections.reverse(array);
+        return array;
     }
 
+    //从小到大排序
     public List<Integer> sortFromSmall() {
-        throw new NotImplementedException();
+        Collections.sort(array);
+        return array;
     }
 }

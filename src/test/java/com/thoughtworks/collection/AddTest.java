@@ -11,7 +11,7 @@ public class AddTest {
 
     @Test
     public void should_get_sum_of_evens() {
-        //æ±‚leftBorder å’ŒrightBorderä¹‹é—´çš„å¶æ•°å’Œ
+        //ÇóleftBorder ºÍrightBorderÖ®¼äµÄÅ¼ÊıºÍ
         int leftBorder = 1;
         int rightBorder = 10;
 
@@ -22,7 +22,7 @@ public class AddTest {
 
     @Test
     public void should_get_triple_and_add_two() {
-        //æ±‚æ•°ç»„ä¸­æ¯ä¸ªå…ƒç´ çš„3å€åŠ 2çš„å’Œ
+        //ÇóÊı×éÖĞÃ¿¸öÔªËØµÄ3±¶¼Ó2µÄºÍ
         Integer[] array = new Integer[]{1, 5, 7, 11, 35, 67};
         List<Integer> arrayList = Arrays.asList(array);
 
@@ -33,7 +33,7 @@ public class AddTest {
 
     @Test
     public void should_return_average_of_even() {
-        //æ±‚æ•°ç»„ä¸­æ‰€æœ‰å¶æ•°çš„å¹³å‡æ•°
+        //ÇóÊı×éÖĞËùÓĞÅ¼ÊıµÄÆ½¾ùÊı
         Integer[] array = new Integer[]{1, 2, 3, 4, 5};
         List<Integer> arrayList = Arrays.asList(array);
 
