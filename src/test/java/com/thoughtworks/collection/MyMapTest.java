@@ -11,7 +11,7 @@ public class MyMapTest {
     @Test
     public void should_sort_from_big_to_small() {
         //从大到小排序
-        Integer[] array = new Integer[]{1, 2, 3, 4, 5};
+        Integer[] array = new Integer[]{2, 1, 5, 4, 3};
         List<Integer> list = Arrays.asList(array);
 
         MyMap myMap = new MyMap(list);

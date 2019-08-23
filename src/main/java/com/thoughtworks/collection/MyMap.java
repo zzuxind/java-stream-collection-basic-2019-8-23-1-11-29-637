@@ -14,7 +14,7 @@ public class MyMap {
 
     //从大到小排序
     public List<Integer> sortFromBig() {
-
+        Collections.sort(array);
         Collections.reverse(array);
         return array;
     }
